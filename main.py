@@ -1,8 +1,5 @@
 # This is a sample Python script.
 import logging
-
-import pandas as pd
-
 import rankData
 import strategy
 
@@ -25,15 +22,13 @@ if __name__ == '__main__':
 
     # ranking based on RDX
 
-    rank = rankData.RankData()
-    df = rank.load_data()
+    # rank = rankData.RankData()
+    # df = rank.load_data()
     # rank.rank_data()
 
-    # testStrategy = strategy.Strategy()
-    # testStrategy.evaluate()
-
-
-
+    testStrategy = strategy.Strategy()
+    testStrategy.load_index()
+    testStrategy.evaluate()
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

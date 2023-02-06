@@ -1,22 +1,1580 @@
-2023-02-02 21:29:02,531 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:02,846 : yFin.py:34 -  INFO :: Data Fetch Completed
-2023-02-02 21:29:02,864 : yFin.py:62 -  INFO :: Custom data added
-2023-02-02 21:29:02,876 : yFin.py:66 -  INFO :: data written to data.csv file
-2023-02-02 21:29:02,881 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:03,130 : yFin.py:34 -  INFO :: Data Fetch Completed
-2023-02-02 21:29:03,141 : yFin.py:62 -  INFO :: Custom data added
-2023-02-02 21:29:03,151 : yFin.py:66 -  INFO :: data written to data.csv file
-2023-02-02 21:29:03,156 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:03,453 : yFin.py:34 -  INFO :: Data Fetch Completed
-2023-02-02 21:29:03,464 : yFin.py:62 -  INFO :: Custom data added
-2023-02-02 21:29:03,474 : yFin.py:66 -  INFO :: data written to data.csv file
-2023-02-02 21:29:03,479 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:03,775 : yFin.py:34 -  INFO :: Data Fetch Completed
-2023-02-02 21:29:03,786 : yFin.py:62 -  INFO :: Custom data added
-2023-02-02 21:29:03,796 : yFin.py:66 -  INFO :: data written to data.csv file
-2023-02-02 21:29:03,802 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:04,127 : yFin.py:34 -  INFO :: Data Fetch Completed
-2023-02-02 21:29:04,140 : yFin.py:62 -  INFO :: Custom data added
-2023-02-02 21:29:04,150 : yFin.py:66 -  INFO :: data written to data.csv file
-2023-02-02 21:29:04,156 : yFin.py:31 -  INFO :: Data Fetch Started
-2023-02-02 21:29:04,279 : yFin.py:34 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:23,364 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:23,743 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:23,761 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:23,774 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:23,774 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:24,055 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:24,072 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:24,085 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:24,085 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:24,328 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:24,343 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:24,355 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:24,355 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:24,551 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:24,566 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:24,578 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:24,578 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:24,938 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:24,955 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:24,967 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:24,967 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:25,236 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:25,253 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:25,265 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:25,265 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:25,480 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:25,495 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:25,506 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:25,506 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:25,746 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:25,763 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:25,775 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:25,775 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:25,982 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:25,998 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:26,010 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:26,010 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:26,303 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:26,317 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:26,329 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:26,329 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:26,599 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:26,615 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:26,628 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:26,628 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:26,978 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:26,995 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:27,008 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:27,008 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:27,274 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:27,290 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:27,303 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:27,303 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:27,662 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:27,679 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:27,691 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:27,691 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:27,971 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:27,988 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:28,002 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:28,002 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:28,257 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:28,275 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:28,289 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:28,289 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:28,612 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:28,631 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:28,645 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:28,645 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:28,997 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:29,017 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:29,031 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:29,031 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:29,358 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:29,377 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:29,390 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:29,390 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:29,756 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:29,778 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:29,792 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:29,793 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:30,206 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:30,225 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:30,238 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:30,238 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:30,625 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:30,648 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:30,663 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:30,663 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:30,958 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:30,978 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:30,991 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:30,991 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:31,259 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:31,276 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:31,289 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:31,289 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:31,720 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:31,741 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:31,755 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:31,755 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:32,138 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:32,160 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:32,175 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:32,175 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:32,612 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:32,632 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:32,646 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:32,646 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:32,909 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:32,928 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:32,941 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:32,941 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:33,241 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:33,261 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:33,274 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:33,274 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:33,874 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:33,895 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:33,910 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:33,910 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:34,188 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:34,205 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:34,217 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:34,217 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:34,488 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:34,508 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:34,522 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:34,522 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:34,962 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:34,984 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:34,999 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:34,999 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:35,258 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:35,278 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:35,291 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:35,291 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:35,591 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:35,610 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:35,624 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:35,624 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:35,907 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:35,927 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:35,940 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:35,940 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:36,233 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:36,252 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:36,264 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:36,264 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:36,561 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:36,580 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:36,592 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:36,592 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:36,844 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:36,862 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:36,876 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:36,877 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:37,144 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:37,162 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:37,174 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:37,174 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:37,542 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:37,564 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:37,579 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:37,579 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:37,800 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:37,820 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:37,833 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:37,833 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:38,119 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:38,137 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:38,150 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:38,150 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:38,500 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:38,521 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:38,536 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:38,536 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:38,756 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:38,774 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:38,787 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:38,787 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:39,039 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:39,058 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:39,071 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:39,071 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:39,277 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:39,297 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:39,310 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:39,311 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:39,550 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:39,571 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:39,584 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:39,584 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:39,859 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:39,877 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:39,890 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:39,890 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:40,282 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:40,304 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:40,319 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:40,319 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:40,701 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:40,721 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:40,734 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:40,734 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:40,996 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:41,015 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:41,027 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:41,027 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:41,310 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:41,328 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:41,341 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:41,341 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:41,668 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:41,688 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:41,702 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:41,702 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:42,082 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:42,103 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:42,118 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:42,118 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:42,510 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:42,532 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:42,547 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:42,547 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:42,933 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:42,955 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:42,969 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:42,969 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:43,250 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:43,268 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:43,281 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:43,281 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:43,489 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:43,508 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:43,521 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:43,521 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:43,777 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:43,794 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:43,807 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:43,807 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:44,219 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:44,240 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:44,255 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:44,255 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:44,600 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:44,620 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:44,633 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:44,633 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:44,847 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:44,867 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:44,881 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:44,881 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:45,168 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:45,187 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:45,200 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:45,200 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:45,449 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:45,468 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:45,480 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:45,480 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:45,832 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:45,852 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:45,866 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:45,866 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:46,187 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:46,208 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:46,221 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:46,222 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:46,499 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:46,518 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:46,532 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:46,532 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:46,850 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:46,871 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:46,885 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:46,885 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:47,209 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:47,229 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:47,243 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:47,243 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:47,499 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:47,518 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:47,531 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:47,531 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:47,846 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:47,866 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:47,880 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:47,880 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:48,107 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:48,124 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:48,137 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:48,137 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:48,445 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:48,465 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:48,478 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:48,478 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:48,854 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:48,875 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:48,889 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:48,889 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:49,117 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:49,137 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:49,150 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:49,150 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:49,533 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:49,554 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:49,568 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:49,568 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:49,831 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:49,850 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:49,863 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:49,863 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:50,067 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:50,086 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:50,099 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:50,099 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:50,454 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:50,474 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:50,489 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:50,489 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:50,733 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:50,753 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:50,766 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:50,766 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:51,160 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:51,182 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:51,196 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:51,196 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:51,495 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:51,514 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:51,529 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:51,529 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:51,802 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:51,821 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:51,834 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:51,834 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:52,038 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:52,057 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:52,070 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:52,070 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:52,411 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:52,432 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:52,447 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:52,447 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:52,873 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:52,895 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:52,909 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:52,909 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:53,314 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:53,335 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:53,349 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:53,349 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:53,669 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:53,689 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:53,703 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:53,704 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:54,125 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:54,147 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:54,162 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:54,162 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:54,566 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:54,586 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:54,600 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:54,600 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:54,855 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:54,872 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:54,885 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:54,885 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:55,252 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:55,273 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:55,287 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:55,288 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:55,516 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:55,534 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:55,547 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:55,547 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:55,833 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:55,852 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:55,865 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:55,865 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:56,259 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:56,281 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:56,295 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:56,295 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:56,542 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:56,561 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:56,574 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:56,574 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:56,837 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:56,856 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:56,870 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:56,870 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:57,183 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:57,202 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:57,215 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:57,215 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:57,466 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:57,485 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:57,498 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:57,498 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:57,754 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:57,772 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:57,785 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:57,785 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:58,113 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:58,132 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:58,145 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:58,145 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:58,465 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:58,486 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:58,501 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:58,501 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:58,800 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:58,818 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:58,831 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:58,831 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:59,126 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:59,145 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:59,159 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:59,159 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:59,478 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:59,492 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:59,505 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:59,505 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:23:59,748 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:23:59,766 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:23:59,782 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:23:59,783 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:00,060 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:00,081 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:00,095 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:00,095 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:00,500 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:00,515 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:00,530 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:00,530 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:00,983 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:01,004 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:01,018 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:01,018 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:01,482 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:01,496 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:01,511 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:01,511 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:01,859 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:01,873 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:01,885 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:01,885 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:02,143 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:02,159 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:02,173 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:02,173 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:02,522 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:02,534 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:02,547 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:02,547 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:02,754 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:02,767 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:02,777 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:02,777 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:03,019 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:03,030 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:03,040 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:03,041 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:03,458 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:03,469 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:03,480 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:03,480 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:03,705 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:03,716 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:03,727 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:03,727 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:04,077 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:04,089 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:04,101 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:04,101 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:04,400 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:04,418 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:04,431 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:04,431 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:04,816 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:04,828 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:04,838 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:04,838 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:05,138 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:05,163 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:05,176 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:05,176 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:05,498 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:05,509 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:05,521 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:05,521 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:05,866 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:05,888 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:05,900 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:05,901 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:06,159 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:06,172 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:06,184 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:06,184 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:06,567 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:06,589 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:06,603 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:06,603 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:06,826 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:06,846 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:06,860 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:06,861 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:07,124 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:07,143 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:07,157 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:07,157 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:07,446 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:07,466 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:07,479 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:07,479 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:07,806 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:07,828 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:07,843 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:07,843 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:08,212 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:08,232 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:08,246 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:08,246 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:08,565 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:08,585 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:08,599 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:08,599 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:08,879 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:08,898 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:08,912 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:08,912 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:09,288 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:09,311 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:09,327 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:09,327 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:09,618 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:09,638 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:09,652 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:09,652 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:09,907 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:09,926 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:09,939 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:09,939 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:10,188 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:10,208 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:10,222 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:10,222 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:10,592 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:10,613 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:10,628 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:10,628 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:11,018 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:11,040 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:11,054 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:11,054 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:11,332 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:11,351 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:11,365 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:11,365 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:11,654 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:11,674 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:11,688 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:11,688 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:12,036 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:12,055 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:12,068 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:12,068 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:12,404 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:12,423 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:12,437 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:12,437 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:12,815 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:12,836 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:12,850 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:12,851 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:13,115 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:13,134 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:13,147 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:13,147 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:13,514 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:13,536 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:13,551 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:13,551 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:13,905 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:13,927 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:13,943 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:13,943 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:14,353 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:14,375 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:14,389 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:14,389 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:14,596 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:14,610 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:14,623 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:14,623 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:14,882 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:14,896 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:14,906 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:14,906 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:15,167 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:15,187 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:15,203 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:15,203 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:15,487 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:15,499 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:15,509 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:15,509 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:15,718 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:15,730 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:15,740 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:15,740 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:16,026 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:16,043 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:16,055 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:16,055 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:16,276 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:16,289 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:16,300 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:16,300 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:16,567 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:16,580 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:16,594 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:16,594 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:16,854 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:16,873 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:16,886 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:16,886 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:17,153 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:17,169 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:17,182 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:17,182 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:17,428 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:17,447 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:17,461 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:17,461 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:17,735 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:17,754 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:17,767 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:17,767 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:17,979 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:18,016 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:18,029 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:18,029 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:18,320 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:18,338 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:18,351 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:18,351 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:18,554 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:18,574 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:18,587 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:18,588 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:18,869 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:18,887 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:18,900 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:18,900 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:19,102 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:19,123 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:19,137 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:19,137 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:19,470 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:19,490 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:19,504 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:19,504 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:19,881 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:19,902 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:19,918 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:19,918 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:20,308 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:20,328 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:20,342 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:20,342 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:20,621 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:20,640 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:20,653 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:20,653 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:20,880 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:20,897 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:20,913 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:20,913 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:21,142 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:21,163 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:21,177 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:21,177 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:21,420 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:21,441 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:21,455 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:21,455 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:21,728 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:21,746 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:21,758 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:21,758 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:22,095 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:22,115 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:22,128 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:22,128 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:22,372 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:22,391 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:22,404 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:22,404 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:22,687 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:22,707 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:22,720 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:22,720 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:23,036 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:23,055 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:23,069 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:23,069 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:23,389 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:23,408 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:23,422 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:23,422 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:23,741 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:23,759 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:23,772 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:23,772 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:24,081 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:24,100 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:24,112 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:24,112 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:24,355 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:24,373 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:24,387 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:24,387 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:24,767 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:24,788 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:24,802 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:24,802 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:25,089 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:25,111 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:25,127 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:25,127 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:25,422 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:25,444 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:25,458 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:25,458 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:25,852 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:25,873 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:25,887 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:25,887 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:26,232 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:26,256 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:26,272 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:26,272 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:26,551 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:26,574 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:26,589 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:26,589 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:26,908 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:26,928 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:26,943 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:26,943 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:27,232 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:27,254 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:27,269 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:27,269 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:27,511 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:27,534 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:27,549 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:27,549 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:27,900 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:27,922 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:27,937 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:27,937 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:28,228 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:28,249 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:28,264 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:28,264 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:28,535 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:28,557 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:28,571 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:28,572 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:28,862 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:28,883 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:28,897 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:28,897 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:29,156 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:29,175 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:29,190 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:29,191 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:29,544 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:29,565 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:29,579 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:24:29,579 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:24:29,865 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:24:29,888 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:24:29,902 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:58,213 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:27:58,523 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:27:58,541 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:27:58,554 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:58,554 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:27:58,865 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:27:58,882 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:27:58,894 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:58,894 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:27:59,180 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:27:59,198 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:27:59,210 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:59,210 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:27:59,461 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:27:59,477 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:27:59,489 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:59,489 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:27:59,846 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:27:59,863 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:27:59,875 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:27:59,875 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:00,089 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:00,102 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:00,114 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:00,114 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:00,366 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:00,383 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:00,395 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:00,395 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:00,842 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:00,859 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:00,871 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:00,871 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:01,079 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:01,095 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:01,107 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:01,107 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:01,340 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:01,357 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:01,368 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:01,368 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:01,830 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:01,847 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:01,860 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:01,860 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:02,099 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:02,116 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:02,129 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:02,129 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:02,385 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:02,396 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:02,406 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:02,406 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:02,641 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:02,656 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:02,668 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:02,668 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:02,999 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:03,016 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:03,028 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:03,028 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:03,317 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:03,334 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:03,346 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:03,346 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:03,627 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:03,643 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:03,655 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:03,655 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:04,012 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:04,028 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:04,040 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:04,040 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:04,348 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:04,365 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:04,377 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:04,377 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:04,680 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:04,697 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:04,710 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:04,710 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:04,945 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:04,961 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:04,973 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:04,973 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:05,355 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:05,372 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:05,384 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:05,384 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:05,771 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:05,788 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:05,799 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:05,800 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:06,071 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:06,087 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:06,099 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:06,099 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:06,368 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:06,385 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:06,397 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:06,397 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:06,726 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:06,743 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:06,756 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:06,756 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:07,052 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:07,069 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:07,081 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:07,081 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:07,524 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:07,541 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:07,554 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:07,554 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:07,779 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:07,794 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:07,806 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:07,806 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:08,102 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:08,120 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:08,133 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:08,133 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:08,427 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:08,443 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:08,455 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:08,455 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:08,731 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:08,748 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:08,759 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:08,760 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:09,084 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:09,100 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:09,112 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:09,112 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:09,334 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:09,350 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:09,362 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:09,362 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:09,630 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:09,647 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:09,659 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:09,659 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:09,935 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:09,951 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:09,964 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:09,964 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:10,238 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:10,254 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:10,266 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:10,266 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:10,545 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:10,563 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:10,575 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:10,576 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:10,939 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:10,957 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:10,969 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:10,969 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:11,290 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:11,307 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:11,319 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:11,319 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:11,605 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:11,621 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:11,633 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:11,633 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:11,939 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:11,951 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:11,961 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:11,961 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:12,166 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:12,182 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:12,194 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:12,194 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:12,564 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:12,581 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:12,594 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:12,594 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:12,836 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:12,852 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:12,864 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:12,864 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:13,074 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:13,090 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:13,102 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:13,102 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:13,387 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:13,403 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:13,415 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:13,415 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:13,730 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:13,748 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:13,761 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:13,761 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:14,053 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:14,071 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:14,083 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:14,083 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:14,332 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:14,348 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:14,359 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:14,359 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:14,569 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:14,584 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:14,596 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:14,596 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:14,860 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:14,876 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:14,888 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:14,888 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:15,324 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:15,340 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:15,370 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:15,371 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:15,643 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:15,660 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:15,671 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:15,671 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:16,071 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:16,088 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:16,100 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:16,100 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:16,316 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:16,332 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:16,344 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:16,344 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:16,573 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:16,586 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:16,596 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:16,596 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:16,899 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:16,914 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:16,926 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:16,926 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:17,282 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:17,299 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:17,311 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:17,311 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:17,593 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:17,610 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:17,622 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:17,622 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:17,873 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:17,885 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:17,895 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:17,895 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:18,152 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:18,163 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:18,174 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:18,174 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:18,477 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:18,493 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:18,505 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:18,505 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:18,711 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:18,723 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:18,733 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:18,733 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:18,949 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:18,961 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:18,972 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:18,972 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:19,334 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:19,352 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:19,365 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:19,365 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:19,649 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:19,667 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:19,679 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:19,679 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:20,057 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:20,074 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:20,086 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:20,086 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:20,376 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:20,395 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:20,411 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:20,411 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:20,758 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:20,776 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:20,788 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:20,788 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:21,105 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:21,125 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:21,138 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:21,138 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:21,398 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:21,414 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:21,426 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:21,426 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:21,771 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:21,789 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:21,801 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:21,801 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:22,095 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:22,112 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:22,124 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:22,124 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:22,402 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:22,418 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:22,430 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:22,430 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:22,679 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:22,696 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:22,708 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:22,708 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:22,935 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:22,950 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:22,963 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:22,963 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:23,227 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:23,243 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:23,255 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:23,255 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:23,596 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:23,613 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:23,624 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:23,625 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:23,850 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:23,866 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:23,877 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:23,878 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:24,105 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:24,121 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:24,132 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:24,132 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:24,339 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:24,355 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:24,367 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:24,367 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:24,669 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:24,685 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:24,697 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:24,697 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:24,878 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:24,895 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:24,908 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:24,908 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:25,236 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:25,254 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:25,266 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:25,266 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:25,615 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:25,632 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:25,645 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:25,645 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:25,952 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:25,969 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:25,981 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:25,981 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:26,369 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:26,385 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:26,396 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:26,397 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:26,671 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:26,688 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:26,700 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:26,700 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:26,884 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:26,900 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:26,912 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:26,912 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:27,178 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:27,194 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:27,205 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:27,206 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:27,592 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:27,609 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:27,621 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:27,622 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:27,920 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:27,937 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:27,949 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:27,949 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:28,216 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:28,233 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:28,245 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:28,245 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:28,547 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:28,563 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:28,575 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:28,576 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:28,900 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:28,917 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:28,940 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:28,940 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:29,354 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:29,370 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:29,382 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:29,382 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:29,636 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:29,653 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:29,665 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:29,665 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:29,942 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:29,959 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:29,972 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:29,972 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:30,355 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:30,373 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:30,386 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:30,386 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:30,686 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:30,703 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:30,716 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:30,716 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:30,962 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:30,979 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:30,990 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:30,991 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:31,237 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:31,254 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:31,266 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:31,266 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:31,571 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:31,589 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:31,601 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:31,601 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:32,032 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:32,049 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:32,061 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:32,061 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:32,411 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:32,428 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:32,440 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:32,440 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:32,875 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:32,892 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:32,903 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:32,904 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:33,289 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:33,306 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:33,318 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:33,318 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:33,587 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:33,603 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:33,615 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:33,615 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:33,831 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:33,848 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:33,859 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:33,859 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:34,162 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:34,178 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:34,190 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:34,190 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:34,505 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:34,522 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:34,533 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:34,533 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:34,806 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:34,822 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:34,833 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:34,833 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:35,072 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:35,088 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:35,100 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:35,100 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:35,501 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:35,519 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:35,531 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:35,531 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:35,733 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:35,749 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:35,761 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:35,761 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:35,982 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:35,997 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:36,009 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:36,009 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:36,413 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:36,431 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:36,444 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:36,444 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:36,794 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:36,811 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:36,823 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:36,823 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:37,068 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:37,084 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:37,096 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:37,096 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:37,410 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:37,427 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:37,440 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:37,440 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:37,783 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:37,800 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:37,812 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:37,812 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:38,116 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:38,133 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:38,146 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:38,146 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:38,425 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:38,442 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:38,454 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:38,454 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:38,745 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:38,758 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:38,769 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:38,769 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:39,022 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:39,035 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:39,045 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:39,045 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:39,298 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:39,314 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:39,326 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:39,326 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:39,553 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:39,568 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:39,580 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:39,580 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:39,900 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:39,918 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:39,931 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:39,931 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:40,136 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:40,152 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:40,163 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:40,164 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:40,498 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:40,521 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:40,534 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:40,534 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:40,739 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:40,752 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:40,775 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:40,775 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:41,096 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:41,111 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:41,122 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:41,123 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:41,395 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:41,411 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:41,423 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:41,423 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:41,799 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:41,816 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:41,828 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:41,828 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:42,141 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:42,157 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:42,169 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:42,169 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:42,450 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:42,466 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:42,478 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:42,478 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:42,767 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:42,784 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:42,796 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:42,796 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:43,076 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:43,092 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:43,104 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:43,104 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:43,534 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:43,551 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:43,563 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:43,563 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:43,788 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:43,803 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:43,815 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:43,815 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:44,113 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:44,129 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:44,140 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:44,140 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:44,310 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:44,326 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:44,338 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:44,338 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:44,663 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:44,680 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:44,693 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:44,693 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:45,008 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:45,025 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:45,037 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:45,037 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:45,345 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:45,362 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:45,375 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:45,375 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:45,627 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:45,643 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:45,654 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:45,654 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:46,033 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:46,051 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:46,063 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:46,063 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:46,357 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:46,374 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:46,386 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:46,386 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:46,664 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:46,680 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:46,693 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:46,693 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:46,962 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:46,979 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:46,992 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:46,992 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:47,187 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:47,203 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:47,215 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:47,215 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:47,446 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:47,461 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:47,473 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:47,473 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:47,944 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:47,960 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:47,972 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:47,972 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:48,297 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:48,314 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:48,326 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:48,327 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:48,598 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:48,613 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:48,626 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:48,626 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:48,975 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:48,992 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:49,004 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:49,004 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:49,382 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:49,399 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:49,412 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:49,412 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:49,674 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:49,690 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:49,702 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:49,702 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:49,934 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:49,951 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:49,962 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:49,963 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:50,187 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:50,204 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:50,215 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:50,216 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:50,524 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:50,540 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:50,565 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:50,565 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:50,782 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:50,798 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:50,810 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:50,810 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:51,054 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:51,065 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:51,075 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:51,075 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:51,328 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:51,343 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:51,355 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:51,355 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:51,597 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:51,614 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:51,626 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:51,626 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:51,841 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:51,857 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:51,869 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:51,869 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:52,182 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:52,198 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:52,210 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:52,210 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:52,628 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:52,644 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:52,656 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:52,656 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:52,914 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:52,930 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:52,942 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:52,942 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:53,124 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:53,140 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:53,152 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:53,152 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:53,435 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:53,452 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:53,464 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:53,464 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:53,796 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:53,814 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:53,827 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:53,827 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:54,074 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:54,091 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:54,103 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:54,103 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:54,299 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:54,315 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:54,327 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:54,327 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:54,674 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:54,691 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:54,703 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:54,703 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:55,005 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:55,022 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:55,034 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:55,034 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:55,324 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:55,341 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:55,353 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:55,353 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:55,686 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:55,703 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:55,716 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:55,716 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:55,958 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:55,976 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:55,988 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:55,988 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:56,296 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:56,313 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:56,325 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:56,325 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:56,600 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:56,618 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:56,630 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:56,630 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:56,869 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:56,886 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:56,898 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:56,898 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:57,180 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:57,196 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:57,208 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:57,208 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:57,470 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:57,486 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:57,498 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:57,498 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:57,751 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:57,767 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:57,779 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:57,779 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:58,044 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:58,061 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:58,073 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:58,073 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:58,340 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:58,357 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:58,368 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:58,369 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:58,714 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:58,731 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:58,744 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:58,744 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:59,099 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:59,116 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:59,128 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:59,128 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:59,458 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:59,475 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:59,488 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:59,488 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:28:59,787 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:28:59,803 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:28:59,815 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:28:59,815 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:00,082 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:00,099 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:00,111 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:29:00,111 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:00,354 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:00,370 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:00,382 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:29:00,382 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:00,697 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:00,713 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:00,725 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:29:00,725 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:00,995 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:01,011 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:01,023 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:29:01,023 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:01,310 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:01,327 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:01,339 : yFin.py:66 -  INFO :: data written to data.csv file
+2023-02-04 05:29:01,339 : yFin.py:32 -  INFO :: Data Fetch Started
+2023-02-04 05:29:01,632 : yFin.py:35 -  INFO :: Data Fetch Completed
+2023-02-04 05:29:01,650 : yFin.py:62 -  INFO :: Custom data added
+2023-02-04 05:29:01,662 : yFin.py:66 -  INFO :: data written to data.csv file

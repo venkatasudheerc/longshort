@@ -1,5 +1,3 @@
-import logging
-
 import pandas as pd
 import yFin
 
@@ -22,7 +20,7 @@ class RankData:
                 yf = yFin.YFinance(ticker=stock, data_location=self.data_location)
                 # print(yf.tail(1))
                 df = yf.load_data()
-                print(df.tail(1))
+                # print(df.tail(1))
 
         except ValueError as value:
             print("value error: ", value)
@@ -57,11 +55,11 @@ class RankData:
                     rows_list.append(dict1)
                     # print("done with: ", stock)
 
-                df = pd.DataFrame(rows_list, columns=['Close', 'rdx', 'sma20', 'ema21', 'sma13', 'ema13'])
+                df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema8'])
                 # print(df.tail(1))
                 df['Ticker'] = self.symbols
                 # print(df.tail(1))
-                df = df[['Ticker', 'Close', 'rdx', 'sma20', 'ema21', 'sma13', 'ema13']]
+                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema8']]
                 # print(df.tail(1))
                 df = df.sort_values(by=['rdx'], ascending=False)
                 # print(df.tail(1))
