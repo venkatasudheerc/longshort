@@ -31,7 +31,7 @@ class YFinance:
     def load_data(self):
         logging.info("Data Fetch Started")
         self.data = self.fetch_data()
-        print(self.data.head())
+        # print(self.data.head())
         logging.info("Data Fetch Completed")
 
         # Add RSI

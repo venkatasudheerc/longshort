@@ -5,9 +5,9 @@ import yFin
 class RankData:
     def __init__(self):
         self.symbols = None
-        self.data_location = "./stock_data/"
+        self.data_location = "./istock_data/"
         self.data_interval = "1d"
-        self.rank_location = "./rank_data/"
+        self.rank_location = "./irank_data/"
 
     def load_data(self, target_symbols="US200.csv"):
         df = pd.read_csv(target_symbols)
@@ -34,7 +34,7 @@ class RankData:
 
         try:
             start = 251
-            end = 1020
+            end = 1014
 
             for start in range(start, end):
                 rows_list = []
@@ -49,9 +49,12 @@ class RankData:
                     d1 = str(d).replace("-", "")
                     # print(stock)
                     # print(type(df.iloc[251].Date))
+                    if start > 1000:
+                        print("stock")
+                        print(df.iloc[start])
                     dict1 = {}
                     dict1.update(df.iloc[start])
-                    # print(df.iloc[start])
+
                     rows_list.append(dict1)
                     # print("done with: ", stock)
 

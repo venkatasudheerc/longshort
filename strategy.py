@@ -186,7 +186,7 @@ class Strategy:
         ranked_files = glob.glob(self.rank_data_location + "*_*.csv")
         ranked_files.sort()
         i = 0
-        max_positions = 5
+        max_positions = 20
         long_short_dict = {}
         long_short_list = []
         for file in ranked_files[i:]:

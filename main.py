@@ -23,11 +23,11 @@ if __name__ == '__main__':
     # ranking based on RDX
 
     # rank = rankData.RankData()
-    # df = rank.load_data()
-    # rank.rank_data()
+    # df = rank.load_data(target_symbols="NSE200.csv")
+    # rank.rank_data(target_symbols="NSE200.csv")
 
     testStrategy = strategy.Strategy()
-    testStrategy.load_index()
+    testStrategy.load_index(index_file="./stock_data/SPY.csv")
     testStrategy.evaluate()
 
 
