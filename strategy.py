@@ -182,11 +182,11 @@ class Strategy:
         self.portfolio = temp.reset_index(drop=True)
         print("length (After checking for SL) : ", len(self.portfolio.index))
 
-    def evaluate(self):
-        ranked_files = glob.glob(self.rank_data_location + "*_*.csv")
+    def evaluate(self, start_date=""):
+        ranked_files = glob.glob(self.rank_data_location + "*_2023*.csv")
         ranked_files.sort()
         i = 0
-        max_positions = 20
+        max_positions = 10
         long_short_dict = {}
         long_short_list = []
         for file in ranked_files[i:]:
@@ -206,6 +206,11 @@ class Strategy:
                 'Short_count': len(short_df)
             }
             long_short_list.append(long_short_dict)
+
+            if d < start_date:
+                continue
+            elif d == start_date:
+                self.exit_current_portfolio(df, d)
 
             self.index_df.reset_index(drop=True, inplace=True)
             for index, row in self.index_df.iterrows():

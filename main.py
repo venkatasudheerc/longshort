@@ -23,12 +23,15 @@ if __name__ == '__main__':
     # ranking based on RDX
 
     # rank = rankData.RankData()
+    # df = rank.load_data(target_symbols="US200.csv")
+    # rank.rank_data(target_symbols="US200.csv")
+
     # df = rank.load_data(target_symbols="NSE200.csv")
     # rank.rank_data(target_symbols="NSE200.csv")
 
-    testStrategy = strategy.Strategy()
-    testStrategy.load_index(index_file="./stock_data/SPY.csv")
-    testStrategy.evaluate()
+    # testStrategy = strategy.Strategy()
+    # testStrategy.load_index(index_file="./stock_data/SPY.csv")
+    # testStrategy.evaluate(start_date="20230210")
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

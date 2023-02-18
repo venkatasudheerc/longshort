@@ -25,7 +25,7 @@ class YFinance:
         if self.ticker == "SPY":
             self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2019-01-01")
         else:
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2019-01-01")
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-09-01")
         return self.data
 
     def load_data(self):
@@ -58,6 +58,7 @@ class YFinance:
         self.data['ema21'] = indicator_ema.ema_indicator()
         self.data['ema8'] = indicator_ema2.ema_indicator()
         self.data['macd_diff'] = indicator_macd.macd_diff()
+        self.data['adx_diff'] = abs(indicator_adx.adx_pos() - indicator_adx.adx_neg())
 
         logging.info("Custom data added")
 

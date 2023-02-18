@@ -5,9 +5,9 @@ import yFin
 class RankData:
     def __init__(self):
         self.symbols = None
-        self.data_location = "./istock_data/"
+        self.data_location = "./stock_data/"
         self.data_interval = "1d"
-        self.rank_location = "./irank_data/"
+        self.rank_location = "./rank_data/"
 
     def load_data(self, target_symbols="US200.csv"):
         df = pd.read_csv(target_symbols)
@@ -30,20 +30,23 @@ class RankData:
     def rank_data(self, target_symbols="US200.csv"):
         df = pd.read_csv(target_symbols)
         self.symbols = df['SYMBOL']
-        i = 0
 
         try:
-            start = 251
-            end = 1014
+            start = 100
+            end = 101
 
-            for start in range(start, end):
+            while start < end:
                 rows_list = []
                 i = 0
 
                 for stock in self.symbols[i:]:
                     # print(stock)
+                    if stock == "SPY":
+                        continue
                     df = pd.read_csv(self.data_location+stock+".csv")
                     # print(df)
+                    if end == 101:
+                        end = len(df)
                     d = df.iloc[start].Date[:10]
                     # print(d)
                     d1 = str(d).replace("-", "")
@@ -68,6 +71,7 @@ class RankData:
                 # print(df.tail(1))
                 df.to_csv(self.rank_location + "rank_data_" + d1 + ".csv", index=False)
                 print("completed rank: ", start)
+                start = start + 1
             # print(df)
 
         except ValueError as value:
