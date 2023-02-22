@@ -53,7 +53,8 @@ class Strategy:
             dict1 = {}
             if row.Ticker in df.values:
                 df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['Close'] < df_row.iloc[0]['ema21']:
+                if df_row.iloc[0]['spike14'] \
+                        and df_row.iloc[0]['Close'] < df_row.iloc[0]['ema8']:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     dict1.update({
                         'Entry_Date': row.Entry_Date,
@@ -63,7 +64,22 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100
+                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
+                        'Gain_in_Dollars':  (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
+                    })
+                    rows_list.append(dict1)
+                elif df_row.iloc[0]['Close'] < df_row.iloc[0]['ema21']:
+                    temp = temp[temp['Ticker'] != row.Ticker]
+                    dict1.update({
+                        'Entry_Date': row.Entry_Date,
+                        'Signal': row.Signal,
+                        'Ticker': row.Ticker,
+                        'Entry_Price': row.Entry_Price,
+                        'Qty': row.Qty,
+                        'Exit_Date': d,
+                        'Exit_Price': df_row.iloc[0]['Open'],
+                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
+                        'Gain_in_Dollars': (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
                     })
                     rows_list.append(dict1)
         # print("SL triggered for ", rows_list.__len__(), " symbols")
@@ -86,7 +102,8 @@ class Strategy:
             dict1 = {}
             if row.Ticker in df.values:
                 df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['Close'] > df_row.iloc[0]['ema21']:
+                if df_row.iloc[0]['spike14'] \
+                        and df_row.iloc[0]['Close'] > df_row.iloc[0]['ema8']:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     dict1.update({
                         'Entry_Date': row.Entry_Date,
@@ -96,7 +113,22 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100
+                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
+                        'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
+                    })
+                    rows_list.append(dict1)
+                elif df_row.iloc[0]['Close'] > df_row.iloc[0]['ema21']:
+                    temp = temp[temp['Ticker'] != row.Ticker]
+                    dict1.update({
+                        'Entry_Date': row.Entry_Date,
+                        'Signal': row.Signal,
+                        'Ticker': row.Ticker,
+                        'Entry_Price': row.Entry_Price,
+                        'Qty': row.Qty,
+                        'Exit_Date': d,
+                        'Exit_Price': df_row.iloc[0]['Open'],
+                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
+                        'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
                     })
                     rows_list.append(dict1)
         # print("SL triggered for ", rows_list.__len__(), " symbols")
@@ -123,9 +155,11 @@ class Strategy:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     gain = 0
                     if self.is_long_only:
-                        gain = ((df_row.iloc[0]['Open']*row.Qty)/(row.Entry_Price*row.Qty) - 1)*100
+                        gain = ((df_row.iloc[0]['Open']/row.Entry_Price) - 1)*100
+                        dollar_gain = (df_row.iloc[0]['Open']*row.Qty) - (row.Entry_Price*row.Qty)
                     else:
-                        gain = ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100
+                        gain = ((row.Entry_Price/df_row.iloc[0]['Open']) - 1)*100
+                        dollar_gain = (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
 
                     dict1.update({
                         'Entry_Date': row.Entry_Date,
@@ -135,7 +169,8 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': gain
+                        'Gain': gain,
+                        'Gain_in_Dollars': dollar_gain
                     })
                     rows_list.append(dict1)
         # print("SL triggered for ", rows_list.__len__(), " symbols")
@@ -159,7 +194,20 @@ class Strategy:
             dict1 = {}
             if row.Ticker in df.values:
                 df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['Close'] < row.Entry_Price*0.9 \
+                if df_row.iloc[0]['spike14'] \
+                        and df_row.iloc[0]['Close'] < df_row.iloc[0]['ema8']:
+                    temp = temp[temp['Ticker'] != row.Ticker]
+                    dict1.update({
+                        'Entry_Date': row.Entry_Date,
+                        'Ticker': row.Ticker,
+                        'Entry_Price': row.Entry_Price,
+                        'Exit_Date': d,
+                        'Exit_Price': df_row.iloc[0]['Open'],
+                        'Gain': df_row.iloc[0]['Open'] / row.Entry_Price - 1
+                    })
+                    rows_list.append(dict1)
+
+                elif df_row.iloc[0]['Close'] < row.Entry_Price*0.9 \
                         or df_row.iloc[0]['Close'] < df_row.iloc[0]['ema21']:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     dict1.update({
@@ -183,7 +231,7 @@ class Strategy:
         print("length (After checking for SL) : ", len(self.portfolio.index))
 
     def evaluate(self, start_date=""):
-        ranked_files = glob.glob(self.rank_data_location + "*_2023*.csv")
+        ranked_files = glob.glob(self.rank_data_location + "*_*.csv")
         ranked_files.sort()
         i = 0
         max_positions = 10
@@ -194,6 +242,7 @@ class Strategy:
             d = file[22:30]
             # print(d)
             df = pd.read_csv(file)
+            # df = df[df['spike14'] == 0]
             long_df = df[df['rdx'] > 80]
             short_df = df[df['rdx'] < 25]
             long_df = long_df.sort_values(by=['rdx'], ascending=False)
@@ -233,6 +282,7 @@ class Strategy:
 
                 remaining_space = max_positions - len(self.portfolio.index)
                 rows_list = []
+                long_df = long_df[long_df['spike14'] == 0]
                 if remaining_space > 0:
                     for row in long_df.iterrows():
                         # print(type(row[1]))
@@ -240,7 +290,6 @@ class Strategy:
 
                         if row[1].Ticker in self.portfolio.values:
                             continue
-
                         dict1 = {
                             'Entry_Date': d,
                             'Signal': "Long" if self.is_long_only else "SHORT",
@@ -249,7 +298,8 @@ class Strategy:
                             'Qty': 5000/row[1].Open,
                             'Exit_Date': '',
                             'Exit_Price': '',
-                            'Gain': ''
+                            'Gain': '',
+                            'Gain_in_Dollars': ''
                         }
                         rows_list.append(dict1)
                         if rows_list.__len__() > remaining_space-1:
@@ -266,6 +316,7 @@ class Strategy:
                 remaining_space = max_positions - len(self.portfolio.index)
                 # print(self.portfolio)
                 rows_list = []
+                short_df = short_df[short_df['spike14'] == 0]
                 if remaining_space > 0:
                     for row in short_df.iterrows():
                         # print(type(row[1]))
@@ -273,7 +324,6 @@ class Strategy:
 
                         if row[1].Ticker in self.portfolio.values:
                             continue
-
                         dict1 = {
                             'Entry_Date': d,
                             'Signal': "Long" if self.is_long_only else "SHORT",
@@ -282,7 +332,8 @@ class Strategy:
                             'Qty': 5000 / row[1].Open,
                             'Exit_Date': '',
                             'Exit_Price': '',
-                            'Gain': ''
+                            'Gain': '',
+                            'Gain_in_Dollars': ''
                         }
                         rows_list.append(dict1)
                         if rows_list.__len__() > remaining_space-1:

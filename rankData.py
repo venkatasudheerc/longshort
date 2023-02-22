@@ -61,11 +61,11 @@ class RankData:
                     rows_list.append(dict1)
                     # print("done with: ", stock)
 
-                df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema8'])
+                df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema8', 'spike14'])
                 # print(df.tail(1))
                 df['Ticker'] = self.symbols
                 # print(df.tail(1))
-                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema8']]
+                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema8', 'spike14']]
                 # print(df.tail(1))
                 df = df.sort_values(by=['rdx'], ascending=False)
                 # print(df.tail(1))
