@@ -22,7 +22,7 @@ class YFinance:
         '''
 
     def fetch_data(self):
-        if self.ticker == "SPY":
+        if self.ticker == "SPY" or self.ticker == "^NSEI":
             self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2019-01-01")
         else:
             self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2019-01-01")
@@ -44,6 +44,7 @@ class YFinance:
         # Add EMA 20
         indicator_ema = EMAIndicator(self.data['Close'], window=21)
         indicator_ema2 = EMAIndicator(self.data['Close'], window=8)
+        indicator_ema3 = EMAIndicator(self.data['Close'], window=13)
         # add MACD
         indicator_macd = MACD(self.data['Close'])
 
@@ -57,9 +58,10 @@ class YFinance:
         # self.data['sma13'] = indicator_sma2.sma_indicator()
         self.data['ema21'] = indicator_ema.ema_indicator()
         self.data['ema8'] = indicator_ema2.ema_indicator()
+        self.data['ema13'] = indicator_ema3.ema_indicator()
         self.data['macd_diff'] = indicator_macd.macd_diff()
         self.data['adx_diff'] = abs(abs((indicator_adx.adx_pos() - indicator_adx.adx_neg())).diff())
-        self.data['spike_exists'] = self.data['adx_diff'].gt(30)
+        self.data['spike_exists'] = self.data['adx_diff'].gt(20)
         self.data['spike14'] = self.data['spike_exists'].rolling(14).mean().gt(0)
 
         logging.info("Custom data added")

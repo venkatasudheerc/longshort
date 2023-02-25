@@ -18,19 +18,17 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
+    target = "IND"
     # Gather data and rank them
-
     # ranking based on RDX
 
-    rank = rankData.RankData()
-    # df = rank.load_data(target_symbols="US200.csv")
-    rank.rank_data(target_symbols="US200.csv")
+    # rank = rankData.RankData(target)
+    # df = rank.load_data()
+    # rank.rank_data()
 
-    # df = rank.load_data(target_symbols="NSE200.csv")
-    # rank.rank_data(target_symbols="NSE200.csv")
-
-    testStrategy = strategy.Strategy()
-    testStrategy.load_index(index_file="./stock_data/SPY.csv")
+    # Strategy evaluation
+    testStrategy = strategy.Strategy(target)
+    testStrategy.load_index()
     testStrategy.evaluate(start_date="20190601")
 
 
