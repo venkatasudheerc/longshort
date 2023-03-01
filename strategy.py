@@ -17,6 +17,9 @@ class Strategy:
             self.index_file_name = self.stock_data_location + "SPY" + ".csv"
         else:
             self.index_file_name = self.stock_data_location + "^NSEI" + ".csv"
+            self.rank_data_location = "./irank_data/"
+            self.stock_data_location = "./istock_data/"
+
 
     def load_index(self):
         df = pd.read_csv(self.index_file_name)
@@ -43,55 +46,6 @@ class Strategy:
         self.index_df.to_csv("signal.csv", index=False)
 
     def check_for_stoploss(self, df, d):
-        temp = self.portfolio
-        rows_list = []
-        # print("Checking SL for ", d)
-        for index, row in self.portfolio.iterrows():
-            # print(index, " : ", row.Ticker)
-            dict1 = {}
-            if row.Ticker in df.values:
-                df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['spike14'] \
-                        and df_row.iloc[0]['Close'] < df_row.iloc[0]['ema8']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Signal': row.Signal,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Qty': row.Qty,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
-                        'Gain_in_Dollars':  (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
-                    })
-                    rows_list.append(dict1)
-                elif df_row.iloc[0]['Close'] < df_row.iloc[0]['ema21']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Signal': row.Signal,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Qty': row.Qty,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
-                        'Gain_in_Dollars': (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
-                    })
-                    rows_list.append(dict1)
-        # print("SL triggered for ", rows_list.__len__(), " symbols")
-        if len(self.closed_pos.index) == 0:
-            self.closed_pos = pd.DataFrame(rows_list)
-        else:
-            self.closed_pos = pd.concat([self.closed_pos, pd.DataFrame(rows_list)])
-
-        self.closed_pos = self.closed_pos.round(decimals=2)
-        self.closed_pos.to_csv("closed_positions.csv", index=False)
-        self.portfolio = temp
-        # print(len(self.portfolio.index))
-
-    def check_for_stoploss1(self, df, d):
         temp = self.portfolio
         rows_list = []
         # print("Checking SL for ", d)
@@ -144,55 +98,6 @@ class Strategy:
         # print(len(self.portfolio.index))
 
     def check_for_short_stoploss(self, df, d):
-        temp = self.portfolio
-        rows_list = []
-        # print("Checking SL for ", d)
-        for index, row in self.portfolio.iterrows():
-            # print(index, " : ", row.Ticker)
-            dict1 = {}
-            if row.Ticker in df.values:
-                df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['spike14'] \
-                        and df_row.iloc[0]['Close'] > df_row.iloc[0]['ema8']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Signal': row.Signal,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Qty': row.Qty,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
-                        'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
-                    })
-                    rows_list.append(dict1)
-                elif df_row.iloc[0]['Close'] > df_row.iloc[0]['ema21']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Signal': row.Signal,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Qty': row.Qty,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
-                        'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
-                    })
-                    rows_list.append(dict1)
-        # print("SL triggered for ", rows_list.__len__(), " symbols")
-        if len(self.closed_pos.index) == 0:
-            self.closed_pos = pd.DataFrame(rows_list)
-        else:
-            self.closed_pos = pd.concat([self.closed_pos, pd.DataFrame(rows_list)])
-
-        self.closed_pos = self.closed_pos.round(decimals=2)
-        self.closed_pos.to_csv("closed_positions.csv", index=False)
-        self.portfolio = temp
-        # print(len(self.portfolio.index))
-
-    def check_for_short_stoploss1(self, df, d):
         temp = self.portfolio
         rows_list = []
         # print("Checking SL for ", d)
@@ -287,57 +192,11 @@ class Strategy:
         self.portfolio = temp
         # print(len(self.portfolio.index))
 
-    def check_rsi_based_sl(self, df, d):
-        temp = self.portfolio
-        rows_list = []
-        print("length (before checking for SL) : ", len(self.portfolio.index))
-        print("Checking SL for ", d)
-        for index, row in self.portfolio.iterrows():
-            # print(index, " : ", row.Ticker)
-            dict1 = {}
-            if row.Ticker in df.values:
-                df_row = df[df['Ticker'] == row.Ticker]
-                if df_row.iloc[0]['spike14'] \
-                        and df_row.iloc[0]['Close'] < df_row.iloc[0]['ema8']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': df_row.iloc[0]['Open'] / row.Entry_Price - 1
-                    })
-                    rows_list.append(dict1)
-
-                elif df_row.iloc[0]['Close'] < row.Entry_Price*0.9 \
-                        or df_row.iloc[0]['Close'] < df_row.iloc[0]['ema13']:
-                    temp = temp[temp['Ticker'] != row.Ticker]
-                    dict1.update({
-                        'Entry_Date': row.Entry_Date,
-                        'Ticker': row.Ticker,
-                        'Entry_Price': row.Entry_Price,
-                        'Exit_Date': d,
-                        'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': df_row.iloc[0]['Open'] / row.Entry_Price - 1
-                    })
-                    rows_list.append(dict1)
-        print("SL triggered for ", rows_list.__len__(), " symbols")
-        if len(self.closed_pos.index) == 0:
-            self.closed_pos = pd.DataFrame(rows_list)
-        else:
-            self.closed_pos = pd.concat([self.closed_pos, pd.DataFrame(rows_list)])
-
-        self.closed_pos = self.closed_pos.round(decimals=2)
-        self.closed_pos.to_csv("closed_positions.csv", index=False)
-        self.portfolio = temp.reset_index(drop=True)
-        print("length (After checking for SL) : ", len(self.portfolio.index))
-
     def evaluate(self, start_date=""):
         ranked_files = glob.glob(self.rank_data_location + "*_*.csv")
         ranked_files.sort()
         i = 0
-        max_positions = 15
+        max_positions = 10
         long_short_dict = {}
         long_short_list = []
         for file in ranked_files[i:]:
@@ -381,7 +240,7 @@ class Strategy:
 
             if self.is_long_only:
                 if len(self.portfolio.index) > 0:
-                    self.check_for_stoploss1(df, d)
+                    self.check_for_stoploss(df, d)
 
                 remaining_space = max_positions - len(self.portfolio.index)
                 rows_list = []
@@ -415,7 +274,7 @@ class Strategy:
                         self.portfolio = pd.concat([self.portfolio, pd.DataFrame(rows_list)])
             else:
                 if len(self.portfolio.index) > 0:
-                    self.check_for_short_stoploss1(df, d)
+                    self.check_for_short_stoploss(df, d)
 
                 remaining_space = max_positions - len(self.portfolio.index)
                 # print(self.portfolio)

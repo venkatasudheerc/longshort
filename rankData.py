@@ -5,14 +5,16 @@ import yFin
 class RankData:
     def __init__(self, target="US"):
         self.symbols = None
-        self.data_location = "./stock_data/"
         self.data_interval = "1d"
+        self.data_location = "./stock_data/"
         self.rank_location = "./rank_data/"
         self.indices = pd.Series(['SPY', '^NSEI'])
         if target == "US":
             self.target_symbols = "US200.csv"
         else:
             self.target_symbols = "NSE200.csv"
+            self.data_location = "./istock_data/"
+            self.rank_location = "./irank_data/"
 
 
     def load_data(self):
@@ -40,7 +42,7 @@ class RankData:
         df = pd.read_csv(self.target_symbols)
         self.symbols = df['SYMBOL']
         try:
-            start = 50
+            start = 80
             end = 101
 
             while start < end:

@@ -25,7 +25,7 @@ class YFinance:
         if self.ticker == "SPY" or self.ticker == "^NSEI":
             self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2019-01-01")
         else:
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2019-01-01")
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-10-01")
         return self.data
 
     def load_data(self):

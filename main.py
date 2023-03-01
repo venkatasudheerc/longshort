@@ -18,18 +18,18 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    target = "IND"
+    target = "US"
     # Gather data and rank them
     # ranking based on RDX
 
-    # rank = rankData.RankData(target)
-    # df = rank.load_data()
-    # rank.rank_data()
+    rank = rankData.RankData(target)
+    df = rank.load_data()
+    rank.rank_data()
 
     # Strategy evaluation
     testStrategy = strategy.Strategy(target)
     testStrategy.load_index()
-    testStrategy.evaluate(start_date="20190601")
+    testStrategy.evaluate(start_date="20230210")
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
