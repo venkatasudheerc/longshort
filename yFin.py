@@ -25,7 +25,7 @@ class YFinance:
     def fetch_data(self):
         now = datetime.now() + timedelta(days=1)
         end_date = now.strftime("%Y-%m-%d")
-        print(end_date)
+        # print(end_date)
         if self.ticker == "SPY" or self.ticker == "^NSEI":
             self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2022-01-01",
                                     end=end_date)

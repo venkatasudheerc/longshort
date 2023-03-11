@@ -48,7 +48,6 @@ class RankData:
             while start < end:
                 rows_list = []
                 i = 0
-
                 for stock in self.symbols[i:]:
                     # print(stock)
                     if stock in self.indices.values:
