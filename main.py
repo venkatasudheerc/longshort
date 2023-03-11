@@ -2,6 +2,9 @@
 import logging
 import rankData
 import strategy
+import warnings
+warnings.simplefilter(action='ignore', category=FutureWarning)
+warnings.simplefilter(action='ignore', category=RuntimeWarning)
 
 # Press ⌃R to execute it or replace it with your code.
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
@@ -18,7 +21,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    target = "US"
+    target = "NUS"
     # Gather data and rank them
     # ranking based on RDX
 
@@ -29,7 +32,7 @@ if __name__ == '__main__':
     # Strategy evaluation
     testStrategy = strategy.Strategy(target)
     testStrategy.load_index()
-    testStrategy.evaluate(start_date="20230210")
+    testStrategy.evaluate(start_date="20230301")
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

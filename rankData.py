@@ -56,6 +56,7 @@ class RankData:
                     df = pd.read_csv(self.data_location+stock+".csv")
                     # print(df)
                     if end == 101:
+                        print("end calculated based on stock: ", stock)
                         end = len(df)
                     d = df.iloc[start].Date[:10]
                     # print(d)

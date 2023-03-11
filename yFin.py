@@ -1,10 +1,11 @@
+from datetime import datetime, timedelta
 import logging
 import yfinance as yf
 from ta.momentum import RSIIndicator
 from ta.trend import EMAIndicator
 from ta.trend import ADXIndicator
 from ta.trend import MACD
-
+from ta.volume import VolumeWeightedAveragePrice
 
 class YFinance:
     def __init__(self, ticker="^NSEI", period="1000d", interval="1d", data_location=None):
@@ -22,10 +23,15 @@ class YFinance:
         '''
 
     def fetch_data(self):
+        now = datetime.now() + timedelta(days=1)
+        end_date = now.strftime("%Y-%m-%d")
+        print(end_date)
         if self.ticker == "SPY" or self.ticker == "^NSEI":
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2019-01-01")
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2022-01-01",
+                                    end=end_date)
         else:
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-10-01")
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-11-01",
+                                    end=end_date)
         return self.data
 
     def load_data(self):
@@ -47,6 +53,12 @@ class YFinance:
         indicator_ema3 = EMAIndicator(self.data['Close'], window=13)
         # add MACD
         indicator_macd = MACD(self.data['Close'])
+        vwap = VolumeWeightedAveragePrice(self.data['High'], self.data['Low'],
+                                          self.data['Close'], self.data['Volume'],
+                                          window=14)
+
+        self.data['vwap'] = vwap.volume_weighted_average_price()
+
 
         # Calculate RDX
         self.data['rdx'] = indicator_rsi.rsi() + indicator_adx.adx_pos() - indicator_adx.adx_neg()

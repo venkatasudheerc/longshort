@@ -1,4 +1,6 @@
 import glob
+import os.path
+
 import pandas as pd
 
 
@@ -16,9 +18,9 @@ class Strategy:
         if target == 'US':
             self.index_file_name = self.stock_data_location + "SPY" + ".csv"
         else:
-            self.index_file_name = self.stock_data_location + "^NSEI" + ".csv"
             self.rank_data_location = "./irank_data/"
             self.stock_data_location = "./istock_data/"
+            self.index_file_name = self.stock_data_location + "^NSEI" + ".csv"
 
 
     def load_index(self):
@@ -38,6 +40,32 @@ class Strategy:
 
             dict1.update({
                 'Date': str(row.Date[:10]).replace("-", ""),
+                'signal': signal
+            })
+            row_list.append(dict1)
+
+        self.index_df = pd.DataFrame(row_list)
+        self.index_df.to_csv("signal.csv", index=False)
+
+    def load_index1(self):
+        df = pd.read_csv(self.index_file_name)
+        self.index_df = pd.DataFrame(columns=['Datetime', 'signal'])
+
+        # Start with a long signal
+        signal = "LONG"
+        row_list = []
+        for index, row in df.iterrows():
+            if "15:30:00" not in row.Datetime:
+                continue
+
+            dict1 = {}
+            if row.ema8 > row.ema13 and row.rdx > 50:
+                signal = "LONG"
+            elif row.ema8 < row.ema13 and row.rdx < 50:
+                signal = "SHORT"
+
+            dict1.update({
+                'Date': str(row.Datetime[:10]).replace("-", ""),
                 'signal': signal
             })
             row_list.append(dict1)
@@ -200,8 +228,10 @@ class Strategy:
         long_short_dict = {}
         long_short_list = []
         for file in ranked_files[i:]:
-            # print(file)
-            d = file[22:30]
+            # Need just the basename to extract date from filename
+            file_name = os.path.basename(file)
+            # print(file_name)
+            d = file_name[10:18]
             # print(d)
             df = pd.read_csv(file)
             # df = df[df['spike14'] == 0]
