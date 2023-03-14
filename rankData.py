@@ -16,7 +16,6 @@ class RankData:
             self.data_location = "./istock_data/"
             self.rank_location = "./irank_data/"
 
-
     def load_data(self):
         indices = pd.Series(['SPY', '^NSEI'])
         # print(type(indices))
@@ -36,31 +35,32 @@ class RankData:
         except ArithmeticError as ex:
             print("Exception : ArithmeticError occurred.")
         except Exception as ex:
-            print("Exception occurred.")
+            print("Exception occurred.", ex.with_traceback())
 
     def rank_data(self):
         df = pd.read_csv(self.target_symbols)
         self.symbols = df['SYMBOL']
         try:
             start = 80
-            end = 101
+            end = 1001
 
             while start < end:
                 rows_list = []
                 i = 0
                 for stock in self.symbols[i:]:
-                    # print(stock)
+                    # print("started with : ", stock)
                     if stock in self.indices.values:
                         continue
                     df = pd.read_csv(self.data_location+stock+".csv")
                     # print(df)
-                    if end == 101:
+                    if end == 1001:
                         print("end calculated based on stock: ", stock)
                         end = len(df)
                     d = df.iloc[start].Date[:10]
                     # print(d)
                     d1 = str(d).replace("-", "")
                     # print(stock)
+                    # print(df.iloc[start])
                     # print(type(df.iloc[251].Date))
                     '''
                     if start > 1000:
@@ -69,15 +69,18 @@ class RankData:
                     '''
                     dict1 = {}
                     dict1.update(df.iloc[start])
+                    # print(stock)
 
                     rows_list.append(dict1)
                     # print("done with: ", stock)
+                    # print(rows_list)
 
-                df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14'])
+                df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14',
+                                                      'bull_signal', 'bear_signal'])
                 # print(df.tail(1))
                 df['Ticker'] = self.symbols
                 # print(df.tail(1))
-                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14']]
+                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14', 'bull_signal', 'bear_signal']]
                 # print(df.tail(1))
                 df = df.sort_values(by=['rdx'], ascending=False)
                 # print(df.tail(1))

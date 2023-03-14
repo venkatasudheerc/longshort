@@ -5,7 +5,7 @@ import pandas as pd
 
 
 class Strategy:
-    def __init__(self, target = "US"):
+    def __init__(self, target="US"):
         self.rank_data_location = "./rank_data/"
         self.stock_data_location = "./stock_data/"
         self.portfolio = pd.DataFrame()
@@ -21,7 +21,6 @@ class Strategy:
             self.rank_data_location = "./irank_data/"
             self.stock_data_location = "./istock_data/"
             self.index_file_name = self.stock_data_location + "^NSEI" + ".csv"
-
 
     def load_index(self):
         df = pd.read_csv(self.index_file_name)
@@ -94,11 +93,11 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
-                        'Gain_in_Dollars':  (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
+                        'Gain': ((df_row.iloc[0]['Open'] * row.Qty) / (row.Entry_Price * row.Qty) - 1) * 100,
+                        'Gain_in_Dollars': (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
                     })
                     rows_list.append(dict1)
-                elif df_row.iloc[0]['rdx'] < 80 or df_row.iloc[0]['Close'] < row.Entry_Price*0.9 \
+                elif df_row.iloc[0]['rdx'] < 80 or df_row.iloc[0]['Close'] < row.Entry_Price * 0.9 \
                         or df_row.iloc[0]['Close'] < df_row.iloc[0]['ema8']:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     dict1.update({
@@ -110,7 +109,7 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((df_row.iloc[0]['Open']*row.Qty) / (row.Entry_Price*row.Qty) - 1)*100,
+                        'Gain': ((df_row.iloc[0]['Open'] * row.Qty) / (row.Entry_Price * row.Qty) - 1) * 100,
                         'Gain_in_Dollars': (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
                     })
                     rows_list.append(dict1)
@@ -146,11 +145,11 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
+                        'Gain': ((row.Entry_Price * row.Qty) / (df_row.iloc[0]['Open'] * row.Qty) - 1) * 100,
                         'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
                     })
                     rows_list.append(dict1)
-                elif df_row.iloc[0]['rdx'] > 25 or df_row.iloc[0]['Close'] > row.Entry_Price*1.1 \
+                elif df_row.iloc[0]['rdx'] > 25 or df_row.iloc[0]['Close'] > row.Entry_Price * 1.1 \
                         or df_row.iloc[0]['Close'] > df_row.iloc[0]['ema8']:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     dict1.update({
@@ -162,7 +161,7 @@ class Strategy:
                         'Qty': row.Qty,
                         'Exit_Date': d,
                         'Exit_Price': df_row.iloc[0]['Open'],
-                        'Gain': ((row.Entry_Price*row.Qty) / (df_row.iloc[0]['Open']*row.Qty) - 1)*100,
+                        'Gain': ((row.Entry_Price * row.Qty) / (df_row.iloc[0]['Open'] * row.Qty) - 1) * 100,
                         'Gain_in_Dollars': (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
                     })
                     rows_list.append(dict1)
@@ -190,10 +189,10 @@ class Strategy:
                     temp = temp[temp['Ticker'] != row.Ticker]
                     gain = 0
                     if self.is_long_only:
-                        gain = ((df_row.iloc[0]['Open']/row.Entry_Price) - 1)*100
-                        dollar_gain = (df_row.iloc[0]['Open']*row.Qty) - (row.Entry_Price*row.Qty)
+                        gain = ((df_row.iloc[0]['Open'] / row.Entry_Price) - 1) * 100
+                        dollar_gain = (df_row.iloc[0]['Open'] * row.Qty) - (row.Entry_Price * row.Qty)
                     else:
-                        gain = ((row.Entry_Price/df_row.iloc[0]['Open']) - 1)*100
+                        gain = ((row.Entry_Price / df_row.iloc[0]['Open']) - 1) * 100
                         dollar_gain = (row.Entry_Price * row.Qty) - (df_row.iloc[0]['Open'] * row.Qty)
 
                     dict1.update({
@@ -227,6 +226,8 @@ class Strategy:
         max_positions = 10
         long_short_dict = {}
         long_short_list = []
+        ma_long_short_dict = {}
+        ma_long_short_list = []
         for file in ranked_files[i:]:
             # Need just the basename to extract date from filename
             file_name = os.path.basename(file)
@@ -237,6 +238,8 @@ class Strategy:
             # df = df[df['spike14'] == 0]
             long_df = df[df['rdx'] > 80]
             short_df = df[df['rdx'] < 25]
+            ma_long_df = df[df['bull_signal'] == True]
+            ma_short_df = df[df['bear_signal'] > 0]
             long_df = long_df.sort_values(by=['rdx'], ascending=False)
             short_df = short_df.sort_values(by=['rdx'], ascending=True)
             # print(d, ",", len(long_df), ",", len(short_df))
@@ -247,6 +250,13 @@ class Strategy:
                 'Short_count': len(short_df)
             }
             long_short_list.append(long_short_dict)
+
+            ma_long_short_dict = {
+                'Date': d,
+                'Long_count': len(ma_long_df),
+                'Short_count': len(ma_short_df)
+            }
+            ma_long_short_list.append(ma_long_short_dict)
 
             if d < start_date:
                 continue
@@ -288,14 +298,14 @@ class Strategy:
                             'Ticker': row[1].Ticker,
                             'Entry_Price': row[1].Open,
                             'SL_Price': row[1].ema8,
-                            'Qty': 5000/row[1].Open,
+                            'Qty': 5000 / row[1].Open,
                             'Exit_Date': '',
                             'Exit_Price': '',
                             'Gain': '',
                             'Gain_in_Dollars': ''
                         }
                         rows_list.append(dict1)
-                        if rows_list.__len__() > remaining_space-1:
+                        if rows_list.__len__() > remaining_space - 1:
                             break
 
                     if len(self.portfolio.index) == 0:
@@ -330,7 +340,7 @@ class Strategy:
                             'Gain_in_Dollars': ''
                         }
                         rows_list.append(dict1)
-                        if rows_list.__len__() > remaining_space-1:
+                        if rows_list.__len__() > remaining_space - 1:
                             break
 
                     if len(self.portfolio.index) == 0:
@@ -342,6 +352,5 @@ class Strategy:
             self.portfolio.to_csv("open_positions.csv", index=False)
         self.long_short_df = pd.DataFrame(long_short_list)
         self.long_short_df.to_csv("LongShortCount.csv", index=False)
-
-
-
+        self.ma_long_short_df = pd.DataFrame(ma_long_short_list)
+        self.ma_long_short_df.to_csv("MA_LongShortCount.csv", index=False)

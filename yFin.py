@@ -27,7 +27,7 @@ class YFinance:
         end_date = now.strftime("%Y-%m-%d")
         # print(end_date)
         if self.ticker == "SPY" or self.ticker == "^NSEI":
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval="1d", start="2022-01-01",
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-01-01",
                                     end=end_date)
         else:
             self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-11-01",
@@ -75,6 +75,10 @@ class YFinance:
         self.data['adx_diff'] = abs(abs((indicator_adx.adx_pos() - indicator_adx.adx_neg())).diff())
         self.data['spike_exists'] = self.data['adx_diff'].gt(20)
         self.data['spike14'] = self.data['spike_exists'].rolling(14).mean().gt(0)
+        self.data['bullish'] = self.data.apply(lambda x: x.ema8 > x.ema13 and x.rdx > 50, axis=1)
+        self.data['bearish'] = self.data.apply(lambda x: x.ema8 < x.ema13 and x.rdx < 50, axis=1)
+        self.data['bull_signal'] = self.data['bullish'] & self.data['bullish'].rolling(2).sum().eq(1)
+        self.data['bear_signal'] = self.data['bearish'] & self.data['bearish'].rolling(2).sum().eq(1)
 
         logging.info("Custom data added")
 
