@@ -21,22 +21,25 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    target = "NUS"
+    target = "US"
     if target == "US":
-        startDate = "20230310"
+        startDate = "20230315"
     else:
-        startDate = "20230313"
+        startDate = "20230314"
     # Gather data and rank them
     # ranking based on RDX
 
-    rank = rankData.RankData(target)
-    df = rank.load_data()
-    rank.rank_data()
+    try:
+        rank = rankData.RankData(target)
+        df = rank.load_data()
+        rank.rank_data()
 
-    # Strategy evaluation
-    testStrategy = strategy.Strategy(target)
-    testStrategy.load_index()
-    testStrategy.evaluate(start_date=startDate)
+        # Strategy evaluation
+        testStrategy = strategy.Strategy(target)
+        testStrategy.load_index()
+        testStrategy.evaluate(start_date=startDate)
+    except Exception as ex:
+        print("Exception occurred.", ex, ex.with_traceback())
 
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/

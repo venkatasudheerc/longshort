@@ -7,12 +7,14 @@ from ta.trend import ADXIndicator
 from ta.trend import MACD
 from ta.volume import VolumeWeightedAveragePrice
 
+
 class YFinance:
-    def __init__(self, ticker="^NSEI", period="1000d", interval="1d", data_location=None):
+    def __init__(self, ticker="^NSEI", period="1000d", interval="1d", data_location=None, country="India"):
         self.data = None
         self.ticker = ticker
         self.period = period
         self.interval = interval
+        self.country = country
         self.file_name = data_location + ticker.upper() + ".csv"
 
         '''
@@ -27,10 +29,10 @@ class YFinance:
         end_date = now.strftime("%Y-%m-%d")
         # print(end_date)
         if self.ticker == "SPY" or self.ticker == "^NSEI":
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-01-01",
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2023-01-01",
                                     end=end_date)
         else:
-            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2022-11-01",
+            self.data = yf.download(tickers=self.ticker, period=self.period, interval=self.interval, start="2023-01-01",
                                     end=end_date)
         return self.data
 
@@ -58,8 +60,6 @@ class YFinance:
                                           window=14)
 
         self.data['vwap'] = vwap.volume_weighted_average_price()
-
-
         # Calculate RDX
         self.data['rdx'] = indicator_rsi.rsi() + indicator_adx.adx_pos() - indicator_adx.adx_neg()
         self.data['pdi'] = indicator_adx.adx_pos()
@@ -82,7 +82,7 @@ class YFinance:
 
         logging.info("Custom data added")
 
-        self.data = self.data.round(decimals=2)
+        self.data = self.data.round(decimals=2).tail(3)
         self.data.to_csv(self.file_name)
         logging.info("data written to data.csv file")
         return self.data

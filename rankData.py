@@ -1,3 +1,4 @@
+import logging
 import pandas as pd
 import yFin
 
@@ -11,10 +12,12 @@ class RankData:
         self.indices = pd.Series(['SPY', '^NSEI'])
         if target == "US":
             self.target_symbols = "US200.csv"
+            self.country = "United States"
         else:
             self.target_symbols = "NSE200.csv"
             self.data_location = "./istock_data/"
             self.rank_location = "./irank_data/"
+            self.country = "India"
 
     def load_data(self):
         indices = pd.Series(['SPY', '^NSEI'])
@@ -26,7 +29,7 @@ class RankData:
         i = 0
         try:
             for stock in self.symbols.append(self.indices, ignore_index=True)[i:]:
-                yf = yFin.YFinance(ticker=stock, data_location=self.data_location)
+                yf = yFin.YFinance(ticker=stock, data_location=self.data_location, country = self.country)
                 # print(yf.tail(1))
                 df = yf.load_data()
                 # print(df.tail(1))
@@ -41,7 +44,7 @@ class RankData:
         df = pd.read_csv(self.target_symbols)
         self.symbols = df['SYMBOL']
         try:
-            start = 80
+            start = 1
             end = 1001
 
             while start < end:
@@ -59,18 +62,9 @@ class RankData:
                     d = df.iloc[start].Date[:10]
                     # print(d)
                     d1 = str(d).replace("-", "")
-                    # print(stock)
-                    # print(df.iloc[start])
-                    # print(type(df.iloc[251].Date))
-                    '''
-                    if start > 1000:
-                        print("stock")
-                        print(df.iloc[start])
-                    '''
+
                     dict1 = {}
                     dict1.update(df.iloc[start])
-                    # print(stock)
-
                     rows_list.append(dict1)
                     # print("done with: ", stock)
                     # print(rows_list)
@@ -79,20 +73,18 @@ class RankData:
                                                       'bull_signal', 'bear_signal'])
                 # print(df.tail(1))
                 df['Ticker'] = self.symbols
-                # print(df.tail(1))
                 df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14', 'bull_signal', 'bear_signal']]
-                # print(df.tail(1))
                 df = df.sort_values(by=['rdx'], ascending=False)
-                # print(df.tail(1))
                 df.to_csv(self.rank_location + "rank_data_" + d1 + ".csv", index=False)
                 print("completed rank: ", start)
                 start = start + 1
             # print(df)
 
         except ValueError as value:
-            print("value error.")
-
+            logging.error("value error.", value)
+            raise
         except Exception as ex:
-            print("Exception occurred.", ex)
+            logging.info("Exception occurred.", ex)
+            raise
 
 
