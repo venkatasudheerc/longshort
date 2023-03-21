@@ -82,7 +82,7 @@ class YFinance:
 
         logging.info("Custom data added")
 
-        self.data = self.data.round(decimals=2).tail(3)
+        self.data = self.data.round(decimals=2).tail(20)
         self.data.to_csv(self.file_name)
         logging.info("data written to data.csv file")
         return self.data
