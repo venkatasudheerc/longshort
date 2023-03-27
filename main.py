@@ -23,7 +23,7 @@ def print_hi(name):
 if __name__ == '__main__':
     print_hi('PyCharm')
 
-    target = "US"
+    target = "NUS"
     if target == "US":
         startDate = "20230324"
     else:
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
     try:
         rank = rankData.RankData(target)
-        # df = rank.load_data()
+        df = rank.load_data()
         rank.rank_data()
 
         # Strategy evaluation
