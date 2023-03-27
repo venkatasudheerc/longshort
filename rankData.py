@@ -51,7 +51,7 @@ class RankData:
                 rows_list = []
                 i = 0
                 for stock in self.symbols[i:]:
-                    print("started with : ", stock)
+                    # print("started with : ", stock)
                     if stock in self.indices.values:
                         continue
                     df = pd.read_csv(self.data_location+stock+".csv")
@@ -66,7 +66,7 @@ class RankData:
                     dict1 = {}
                     dict1.update(df.iloc[start])
                     rows_list.append(dict1)
-                    print("done with: ", stock)
+                    # print("done with: ", stock)
                     # print(rows_list)
 
                 df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14',

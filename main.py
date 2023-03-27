@@ -25,15 +25,15 @@ if __name__ == '__main__':
 
     target = "US"
     if target == "US":
-        startDate = "20190901"
+        startDate = "20230324"
     else:
-        startDate = "20190901"
+        startDate = "20230327"
     # Gather data and rank them
     # ranking based on RDX
 
     try:
         rank = rankData.RankData(target)
-        df = rank.load_data()
+        # df = rank.load_data()
         rank.rank_data()
 
         # Strategy evaluation

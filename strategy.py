@@ -226,8 +226,8 @@ class Strategy:
         i = 0
         is_long = True
         is_short = True
-        max_positions = 15
-        max_short_positions = 15
+        max_positions = 10
+        max_short_positions = 10
         long_short_dict = {}
         long_short_list = []
         ma_long_short_dict = {}
@@ -262,7 +262,8 @@ class Strategy:
             }
             ma_long_short_list.append(ma_long_short_dict)
 
-            # print(short_df)
+            if d < start_date:
+                continue
 
             if is_long:
                 if len(self.portfolio.index) > 0:
@@ -336,7 +337,7 @@ class Strategy:
                         self.short_portfolio = pd.concat([self.short_portfolio, pd.DataFrame(rows_list)])
                     # print(self.portfolio)
             self.portfolio = self.portfolio.round(decimals=2)
-            self.portfolio.to_csv("open_positions.csv", index=False)
+            self.portfolio.to_csv("long_open_positions.csv", index=False)
             self.short_portfolio.to_csv("short_open_positions.csv", index=False)
         self.closed_pos.to_csv("closed_positions.csv", index=False)
         self.long_short_df = pd.DataFrame(long_short_list)
