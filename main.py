@@ -1,8 +1,10 @@
 # This is a sample Python script.
 import logging
+import warnings
+
 import rankData
 import strategy
-import warnings
+
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter(action='ignore', category=RuntimeWarning)
 
@@ -30,9 +32,9 @@ if __name__ == '__main__':
     # ranking based on RDX
 
     try:
-        # rank = rankData.RankData(target)
-        # df = rank.load_data()
-        # rank.rank_data()
+        rank = rankData.RankData(target)
+        df = rank.load_data()
+        rank.rank_data()
 
         # Strategy evaluation
         testStrategy = strategy.Strategy(target)
