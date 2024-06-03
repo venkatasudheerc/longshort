@@ -31,8 +31,8 @@ if __name__ == '__main__':
 
     try:
         rank = rankData.RankData(target)
-        # df = rank.load_data()
-        # rank.rank_data()
+        df = rank.load_data()
+        rank.rank_data()
 
         # Strategy evaluation
         testStrategy = strategy.Strategy(target)
