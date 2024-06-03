@@ -13,7 +13,7 @@ class RankData:
         self.rank_location = "./rank_data/"
         self.indices = pd.Series(['SPY', '^NSEI'])
         if target == "US":
-            self.target_symbols = "US200.csv"
+            self.target_symbols = "US500.csv"
             self.country = "United States"
         else:
             self.target_symbols = "IND_Symbols.csv"
