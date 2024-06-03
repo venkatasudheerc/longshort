@@ -1,5 +1,7 @@
 from datetime import datetime, timedelta
 import logging
+
+import numpy as np
 import yfinance as yf
 from ta.momentum import RSIIndicator
 from ta.trend import EMAIndicator
@@ -44,6 +46,7 @@ class YFinance:
 
         # Add RSI
         indicator_rsi = RSIIndicator(self.data['Close'], window=14)
+        indicator_rsi5 = RSIIndicator(self.data['Close'], window=5)
         # Add ADX/DMI
         indicator_adx = ADXIndicator(self.data['High'], self.data['Low'], self.data['Close'], window=14)
         # Add SMA 20
@@ -66,6 +69,7 @@ class YFinance:
         self.data['mdi'] = indicator_adx.adx_neg()
         self.data['adx'] = indicator_adx.adx()
         self.data['rsi'] = indicator_rsi.rsi()
+        self.data['rsi5'] = indicator_rsi5.rsi()
         # self.data['sma20'] = indicator_sma.sma_indicator()
         # self.data['sma13'] = indicator_sma2.sma_indicator()
         self.data['ema21'] = indicator_ema.ema_indicator()
@@ -80,9 +84,13 @@ class YFinance:
         self.data['bull_signal'] = self.data['bullish'] & self.data['bullish'].rolling(2).sum().eq(1)
         self.data['bear_signal'] = self.data['bearish'] & self.data['bearish'].rolling(2).sum().eq(1)
 
+        self.data['abs_rdx_strength'] = 0
+        self.data['abs_rdx_strength'] = np.where(self.data['rdx'].gt(80), self.data['rdx'] - 80, self.data['abs_rdx_strength'])
+        self.data['abs_rdx_strength'] = np.where(self.data['rdx'].lt(20), abs(self.data['rdx'] - 20), self.data['abs_rdx_strength'])
+
         logging.info("Custom data added")
 
-        self.data = self.data.round(decimals=2).tail(20)
+        self.data = self.data.round(decimals=2).tail(-15)
         self.data.to_csv(self.file_name)
         logging.info("data written to data.csv file")
         return self.data
