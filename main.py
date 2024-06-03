@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
     target = "US"
     if target == "US":
-        startDate = "20230901"
+        startDate = "20240603"
     else:
         startDate = "20230901"
     # Gather data and rank them
