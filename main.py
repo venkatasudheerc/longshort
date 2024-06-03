@@ -23,21 +23,21 @@ if __name__ == '__main__':
 
     target = "US"
     if target == "US":
-        startDate = "20230315"
+        startDate = "20230901"
     else:
-        startDate = "20230314"
+        startDate = "20230901"
     # Gather data and rank them
     # ranking based on RDX
 
     try:
         rank = rankData.RankData(target)
-        df = rank.load_data()
-        rank.rank_data()
+        # df = rank.load_data()
+        # rank.rank_data()
 
         # Strategy evaluation
         testStrategy = strategy.Strategy(target)
         testStrategy.load_index()
-        testStrategy.evaluate(start_date=startDate)
+        testStrategy.evaluate_new(start_date=startDate)
     except Exception as ex:
         print("Exception occurred.", ex, ex.with_traceback())
 

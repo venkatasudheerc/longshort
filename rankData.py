@@ -70,11 +70,12 @@ class RankData:
                     # print(rows_list)
 
                 df = pd.DataFrame(rows_list, columns=['Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14',
-                                                      'bull_signal', 'bear_signal'])
+                                                      'bull_signal', 'bear_signal', 'abs_rdx_strength', 'rsi', 'rsi5'])
                 # print(df.tail(1))
                 df['Ticker'] = self.symbols
-                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14', 'bull_signal', 'bear_signal']]
-                df = df.sort_values(by=['rdx'], ascending=False)
+                df = df[['Ticker', 'Open', 'Close', 'rdx', 'ema21', 'ema13', 'ema8', 'spike14', 'bull_signal',
+                         'bear_signal', 'abs_rdx_strength', 'rsi', 'rsi5']]
+                df = df.sort_values(by=['abs_rdx_strength'], ascending=False)
                 df.to_csv(self.rank_location + "rank_data_" + d1 + ".csv", index=False)
                 print("completed rank: ", start)
                 start = start + 1
